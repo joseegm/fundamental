@@ -4033,6 +4033,65 @@ hr {
       margin: 30px auto;
       width: 80px; }
 
+.docs-designers_hero {
+  text-align: center;
+  background-image: url("../images/designers/designers.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 180px; }
+
+.docs-designers_design-principles {
+  text-align: center;
+  background-color: #313c46;
+  color: #ffffff;
+  padding: 100px 0; }
+  .docs-designers_design-principles-heading {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 60px; }
+  .docs-designers_design-principles-col {
+    padding: 20px; }
+  .docs-designers_design-principles-img {
+    height: 120px;
+    vertical-align: baseline;
+    position: relative;
+    margin-bottom: 30px; }
+    .docs-designers_design-principles-img img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto; }
+  .docs-designers_design-principles-col-head {
+    width: 200px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 20px 0 0 0; }
+  .docs-designers_design-principles-col-desc {
+    font-size: 14px; }
+
+.docs-designers_ui-kit {
+  margin: 100px auto;
+  text-align: center; }
+  .docs-designers_ui-kit-heading {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 16px; }
+
+.docs-designers-btn {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #424e5a;
+  display: inline-block;
+  margin: 36px 0 32px 0; }
+  .docs-designers-btn:hover {
+    background-color: #424e5a; }
+
 .docs-header-h1 {
   font-family: Lato;
   font-size: 36px;

@@ -1,0 +1,84 @@
+.docs-designers{
+
+    $docs-home-white-color: docs-color(background, 1);
+    $docs-home-dark-color: docs-color(text, 1);
+
+    &_hero{
+        text-align: center;
+        background-image: url('../images/designers/designers.png');
+        background-size: cover;
+        background-position: center;
+        color: $docs-home-white-color;
+        padding: 180px;
+    }
+
+    &_design-principles{
+        text-align: center;
+        background-color: docs-color(background, 3);
+        color: $docs-home-white-color;
+        padding: 100px 0;
+
+        &-heading{
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 60px;
+        }
+
+        &-col{
+            padding: 20px;
+        }
+
+        &-img{
+            height: 120px;
+            vertical-align: baseline;
+            position: relative;
+            margin-bottom: 30px;
+
+            img{
+                position: absolute;
+                bottom: 0;
+                left:0;
+                right:0;
+                margin-left:auto;
+                margin-right:auto;
+            }
+        }
+
+        &-col-head{
+            width: 200px;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $docs-home-white-color;
+            margin: 20px 0 0 0;
+        }
+
+        &-col-desc{
+            font-size: 14px;
+        }
+    }
+
+    &_ui-kit{
+        margin: 100px auto;
+        text-align: center;
+
+        &-heading{
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 16px;
+        }
+    }
+
+    &-btn{
+        font-size: 16px;
+        font-weight: bold;
+        background-color: $docs-home-dark-color;
+        display: inline-block;
+        margin:36px 0 32px 0;
+
+        &:hover{
+            background-color: $docs-home-dark-color;
+        }
+    }
+}
